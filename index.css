@@ -1,0 +1,14 @@
+body {
+  background-color: aliceblue;
+  padding: 8px;
+  border: 1px solid black; }
+  body .container {
+    border: 1px solid red;
+    height: 300px;
+    position: relative; }
+    body .container .dot {
+      background-color: red;
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      position: absolute; }
